@@ -1,13 +1,15 @@
 <?php 
 
+//database configuration
+
 /*
-// DB credentials.
+//localhost DB credentials.
 define('DB_HOST','localhost');
 define('DB_USER','root');
 define('DB_PASS','');
 define('DB_NAME','library');
 
-// Establish database connection.
+// Establish local database connection.
 
 try
 {
@@ -36,5 +38,7 @@ try {
 {
 exit("Error: " . $e->getMessage());
 }
+
+//end of database configuration
 
 ?> 

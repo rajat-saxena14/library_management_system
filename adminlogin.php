@@ -7,7 +7,7 @@ $_SESSION['alogin']='';
 }
 if(isset($_POST['login']))
 {
- //code for captach verification
+ //code for captcha verification
 if ($_POST["vercode"] != $_SESSION["vercode"] OR $_SESSION["vercode"]=='')  {
         echo "<script>alert('Incorrect verification code');</script>" ;
     } 
