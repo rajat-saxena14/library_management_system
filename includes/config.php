@@ -30,11 +30,9 @@ $cleardb_db       = substr($cleardb_url["path"],1);
 
 try {
     $dbh = new PDO("mysql:host=".$cleardb_server."; dbname=".$cleardb_db, $cleardb_username, $cleardb_password);
-    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $dbh = null;
-} catch (PDOException $e) {
-    print "Error!: " . $e->getMessage() . "<br/>";
-    die();
+} catch (PDOException $e)
+{
+exit("Error: " . $e->getMessage());
 }
 
 ?> 
