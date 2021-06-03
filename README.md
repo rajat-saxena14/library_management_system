@@ -14,9 +14,11 @@ https://elibrary-management-system.herokuapp.com/
 # Offline use of repo
 
 clone the repo using 
+
 git clone https://github.com/rajat-saxena14/library_management_system master
 
 Head over to includes->config.php
+
 Uncomment the localhost DB configuration, comment clearDB configuration and establish database connection
 
 Head over to sql file and import sql file to PhpMyAdmin mysql
@@ -26,9 +28,11 @@ Head over to sql file and import sql file to PhpMyAdmin mysql
 http://localhost/library_management_system
 
 User Login 
+
 Email- rajat14.rs@gmail.com
 Password- 123
 
 Admin login
+
 Username- libadmin
 Password- admin@123
