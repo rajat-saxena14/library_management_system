@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: us-cdbr-east-04.cleardb.com
--- Generation Time: Jun 03, 2021 at 10:36 PM
+-- Generation Time: Jun 03, 2021 at 10:14 PM
 -- Server version: 5.6.50-log
 -- PHP Version: 8.0.6
 
@@ -41,7 +41,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `FullName`, `AdminEmail`, `UserName`, `Password`, `updationDate`) VALUES
-(1, 'Rajat Saxena', 'rajat14.rs@gmail.com', 'libadmin', 'e6e061838856bf47e1de730719fb2609', '2021-06-03 20:35:28'),
+(1, 'Rajat Saxena', 'rajat14.rs@gmail.com', 'admin', '5665aaa382cd5b20a7b72dab71985c59', '2021-06-03 14:54:23'),
 (5, 'Rajat Saxena', 'rajathi142000@gmail.com', 'admin', 'e2d45dab0e347d4e7acafee2235422af', '2021-06-03 14:54:23');
 
 -- --------------------------------------------------------
@@ -169,7 +169,7 @@ CREATE TABLE `tblstudents` (
 --
 
 INSERT INTO `tblstudents` (`id`, `StudentId`, `FullName`, `EmailId`, `MobileNumber`, `Password`, `Status`, `RegDate`, `UpdationDate`) VALUES
-(1, 'SID002', 'Rajat Saxena', 'rajat14.rs@gmail.com', '7895175855', '202cb962ac59075b964b07152d234b70', 1, '2017-07-11 15:37:05', '2021-06-03 20:32:15'),
+(1, 'SID002', 'Rajat Saxena', 'rajat14.rs@gmail.com', '7895175855', '5665aaa382cd5b20a7b72dab71985c59', 1, '2017-07-11 15:37:05', '2021-06-03 19:09:23'),
 (4, 'SID005', 'sdfsd', 'csfsd@dfsfks.com', '8569710025', '92228410fc8b872914e023160cf4ae8f', 0, '2017-07-11 15:41:27', '2017-07-15 17:43:03'),
 (8, 'SID009', 'test', 'test@gmail.com', '2359874527', '21232f297a57a5a743894a0e4a801fc3', 1, '2017-07-11 15:58:28', '2021-05-21 22:19:51'),
 (9, 'SID010', 'Amit', 'amit@gmail.com', '8585856224', 'f925916e2754e5e03f75dd58a5733251', 1, '2017-07-15 13:40:30', NULL),
