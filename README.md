@@ -48,4 +48,4 @@ Password- admin@123
 
 Demo GIF
 
-![Alt Text](https://drive.google.com/uc?export=view&id=1HodBxi_gWLhz_-9Hbo8LWL07NrUT2gVm)
+![Alt Text](/assets/img/elibrary.gif)
